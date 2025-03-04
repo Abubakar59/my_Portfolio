@@ -19,7 +19,7 @@ const About = () => {
       </div>
 
       <div className=" justify-around flex">
-        <div className=" bg-blue-400 h-{50%} w-80"><img src="./images/lafiagi.jpg" alt="" className="w-70 ml-4 mt-3 border-2" />
+        <div className=" bg-blue-400 h-{50%} w-80"><img src="./images/lafiagi.jpg" alt="" className="w-70   border-2" />
           <div className="ml-2">
 
 
