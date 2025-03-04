@@ -5,20 +5,22 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav >
-      <div className="flex  font-bold ml-1 h-8  justify-between items-center">
+      <div className="flex  font-bold  h-8  justify-between items-center bg-blue-500">
 
-        <div className="">
+        <div className="ml-2">
           <NavLink to="/">Home</NavLink>
         </div>
-        <div>
-          <NavLink to="/Resume">Resume</NavLink>
-        </div>
+
         <div>
           <NavLink to="/About">About</NavLink>
         </div>
         <div>
           <NavLink to="/Contact"> Contact</NavLink>
         </div>
+        <div>
+          <NavLink to="/Resume">Play Ground</NavLink>
+        </div>
+
         <div className="mr-2">
           <NavLink to="/Service">Service</NavLink>
         </div>
