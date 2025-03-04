@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav >
-      <div className="flex  font-bold ml-2 hover:to-blue-100 h-8  justify-between items-center">
-        <h1 className=" text-2xl">Abubakar</h1>
-        <div>
+      <div className="flex  font-bold ml-1 h-8  justify-between items-center">
+
+        <div className="">
           <NavLink to="/">Home</NavLink>
         </div>
         <div>
@@ -17,10 +17,10 @@ const NavBar = () => {
           <NavLink to="/About">About</NavLink>
         </div>
         <div>
-          <NavLink to= "/Contact"> Contact</NavLink>
+          <NavLink to="/Contact"> Contact</NavLink>
         </div>
-        <div className="ml-1">
-          <NavLink to= "/Service">Service</NavLink>
+        <div className="mr-2">
+          <NavLink to="/Service">Service</NavLink>
         </div>
       </div>
     </nav>
