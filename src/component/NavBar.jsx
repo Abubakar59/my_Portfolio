@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav >
-      <div className="flex  font-bold  h-8  justify-between items-center bg-blue-500">
+      <div className="flex  font-bold  h-8 w-{100%} justify-between items-center bg-blue-500">
 
         <div className="ml-2">
           <NavLink to="/">Home</NavLink>
@@ -18,7 +18,7 @@ const NavBar = () => {
           <NavLink to="/Contact"> Contact</NavLink>
         </div>
         <div>
-          <NavLink to="/Resume">Play Ground</NavLink>
+          <NavLink to="/Resume"> Playground</NavLink>
         </div>
 
         <div className="mr-2">
