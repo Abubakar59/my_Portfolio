@@ -10,23 +10,23 @@ import Footer from './component/Footer';
 import Playground from './component/Playground';
 
 const App = () => {
-   return (
-      <div>
+  return (
+    <div>
 
 
-         <NavBar />
-         <Routes >
-            <Route path="/" element={<Home />} />
-            <Route path="/Playground" element={<Playground />} />
-            <Route path="/about" element={<About />} />
+      <NavBar />
+      <Routes >
+        <Route path="/" element={<Home />} />
+        <Route path="/Playground" element={<Playground />} />
+        <Route path="/about" element={<About />} />
 
-            <Route path="/Contact" element={<Contact />} />
-            <Route path="/Service" element={<Service />} />
-         </Routes>
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Service" element={<Service />} />
+      </Routes>
 
-         {/* <Footer /> */}
-      </div>
-   );
+      <Footer />
+    </div>
+  );
 };
 
 export default App;

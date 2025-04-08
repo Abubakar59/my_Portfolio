@@ -65,13 +65,11 @@ const Contact = () => {
             <h1>
               Phone
             </h1></div>
-          <div> <HiOutlineMail className='ml-4 h-6 w-6 ' />
+          <div> <a href=''></a><HiOutlineMail className='ml-4 h-6 w-6 ' />
             <h1>
               Email
             </h1> </div>
-          <div> <a href='www.linkedin.com/in/
-abubakarfrontdev
-'> <FaLinkedin className='ml-4 h-6 w-6 ' /></a>
+          <div> <a href='https://www.linkedin.com/in/abubakarcontentwriter/'> <FaLinkedin className='ml-4 h-6 w-6 ' /></a>
             <h1>
               Linkedin
             </h1>

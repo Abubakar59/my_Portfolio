@@ -3,19 +3,46 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            <div className=' bg-black text-white flex justify-center items-center '>
+            <div className=' bg-blue-950 text-white h-33   '>
 
 
-                <div><h1>Front-end Devloper</h1>
-                    <div className='text-xs'>
-                        <p>Plot No;1 central mosque street keffi Nassarawa state</p>
-                        <p>+2349052361059</p>
-                        <p>lafiagiunimaid@unimaid.edu.ng</p>
-                    </div>
+                <div className=' flex justify-around items-center'>
+                    <h1>RESOURCE</h1>
+                    <h1>PRICING</h1>
+                    <h1> COMPANY</h1>
+                    <h1>SOCIAL</h1>
                 </div>
 
-            </div>
-        </div >
+                <div className=' flex justify-around items-baseline text-sm'>
+                    <div>
+                        <div>Application </div>
+                        <div>Documentation</div>
+                        <div>Systems</div>
+                        <div>FAQ</div>
+                    </div>
+
+                    <div>
+                        <div>Over view </div>
+                        <div>Premium </div>
+                        <div>Programs</div>
+                        <div>Promotion</div>
+                    </div>
+                    <div>
+                        <div>About</div>
+                        <div>Career</div>
+                        <div>Partnership</div>
+                        <div>Blog</div>
+                    </div>
+                    <div>
+                        <div>Facebook </div>
+                        <div>Twitter</div>
+                        <div>instagram</div>
+                        <div>Linkedin</div>
+                    </div>
+                </div>
+                &copy; Abubakar usman Lafiagi
+            </div >
+        </div>
     )
 }
 
