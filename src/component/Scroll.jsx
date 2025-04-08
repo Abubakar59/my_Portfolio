@@ -70,7 +70,7 @@ function SignUp() {
     };
 
     return (
-        <div className=' bg-amber-400 items-center justify-center flex '>
+        <div className=' bg-amber-400 items-center justify-center flex h-97 '>
             <form onSubmit={handleSubmit} className='ml-5'>
                 <label>
                     <div className='items-center justify-center flex text-2xl text-cyan-700'> Welcome to MY Test-site </div>

@@ -24,7 +24,7 @@ const App = () => {
             <Route path="/Service" element={<Service />} />
          </Routes>
 
-         <Footer />
+         {/* <Footer /> */}
       </div>
    );
 };
