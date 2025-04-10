@@ -70,7 +70,7 @@ function SignUp() {
     };
 
     return (
-        <div className=' bg-amber-400 items-center justify-center flex h-97 '>
+        <div className=' bg-amber-400 items-center justify-center flex h-{1300} mt-5'>
             <form onSubmit={handleSubmit} className='ml-5'>
                 <label>
                     <div className='items-center justify-center flex text-2xl text-cyan-700'> Welcome to MY Test-site </div>
@@ -105,7 +105,7 @@ function SignUp() {
                     {errors.confirmPassword && <div style={{ color: 'red' }}>{errors.confirmPassword}</div>}
                 </label>
                 <br />
-                <button type="submit" className='bg-black text-white rounded-2xl w-20 h-8 mt-3 justify-center align-middle items-center flex'>Sign Up</button>
+                <button type="submit" className='bg-black text-white rounded-2xl w-20 h-8 mb-2 mt-2 justify-center align-middle items-center flex'>Sign Up</button>
             </form>
             <div id="user-info"></div>
         </div>
